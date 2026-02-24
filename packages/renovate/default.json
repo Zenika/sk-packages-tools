@@ -16,7 +16,7 @@
             "enabled": true
         },
         {
-            "matchPackageNames": ["@znk/**"],
+            "matchPackageNames": ["@znk-sk-tools/**"],
             "commitMessagePrefix": "[znk]",
             "commitMessageExtra": "to v{{{newVersion}}}"
         }
