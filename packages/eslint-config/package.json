@@ -1,0 +1,28 @@
+{
+    "name": "@znk-sk-tools/eslint-config",
+    "description": "Shared ESLint flat config for Vue 3 + TypeScript projects",
+    "version": "1.0.5",
+    "type": "module",
+    "main": "index.js",
+    "exports": {
+        ".": "./index.js"
+    },
+    "files": [
+        "index.js",
+        "README.md"
+    ],
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "dependencies": {
+        "@eslint/js": "9.39.3",
+        "eslint-plugin-vue": "10.8.0",
+        "vue-eslint-parser": "10.4.0",
+        "globals": "15.15.0",
+        "typescript-eslint": "8.56.1"
+    },
+    "peerDependencies": {
+        "eslint": ">=9.0.0 <10.0.0"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "dependencyDashboard": true,
+    "dependencyDashboardApproval": true,
+    "separateMinorPatch": true,
+    "rangeStrategy": "bump",
+    "packageRules": [
+        {
+            "matchUpdateTypes": [
+                "minor",
+                "patch"
+            ],
+            "enabled": true
+        }
+    ]
+}

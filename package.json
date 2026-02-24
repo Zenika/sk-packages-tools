@@ -1,0 +1,8 @@
+{
+    "name": "sk-packages-tools",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "publish:all": "pnpm -r publish --access public"
+    }
+}

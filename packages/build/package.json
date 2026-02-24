@@ -1,0 +1,12 @@
+{
+    "name": "@znk-sk-tools/build",
+    "description": "Shared build script",
+    "version": "1.0.1",
+    "bin": {
+        "sk-build": "./bin/build.sh"
+    },
+    "files": [
+        "bin",
+        "README.md"
+    ]
+}
