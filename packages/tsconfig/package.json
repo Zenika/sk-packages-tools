@@ -1,0 +1,19 @@
+{
+    "name": "@znk-sk-tools/tsconfig",
+    "description": "Shared TypeScript configurations for Vue 3 projects",
+    "version": "1.0.0",
+    "type": "module",
+    "exports": {
+        "./tsconfig.app.json": "./tsconfig.app.json",
+        "./tsconfig.vitest.json": "./tsconfig.vitest.json"
+    },
+    "files": [
+        "tsconfig.app.json",
+        "tsconfig.vitest.json",
+        "README.md"
+    ],
+    "keywords": [
+        "tsconfig",
+        "typescript"
+    ]
+}
