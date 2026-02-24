@@ -1,7 +1,7 @@
 {
     "name": "@znk-sk-tools/eslint-config",
     "description": "Shared ESLint flat config for Vue 3 + TypeScript projects",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "type": "module",
     "main": "index.js",
     "exports": {

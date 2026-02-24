@@ -21,7 +21,7 @@ export default typescriptEslint.config(
             },
         },
         rules: {
-            'no-console': 'warn',
+            'no-console': 'error',
         },
     }
 )

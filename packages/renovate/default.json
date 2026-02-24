@@ -17,7 +17,7 @@
         },
         {
             "matchPackageNames": ["@znk-sk-tools/**"],
-            "commitMessagePrefix": "[znk]",
+            "commitMessagePrefix": "chore(znk-tools):",
             "commitMessageExtra": "to v{{{newVersion}}}"
         }
     ]
