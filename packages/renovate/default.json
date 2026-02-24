@@ -14,6 +14,11 @@
                 "patch"
             ],
             "enabled": true
+        },
+        {
+            "matchPackageNames": ["@znk/**"],
+            "commitMessagePrefix": "[znk]",
+            "commitMessageExtra": "to v{{{newVersion}}}"
         }
     ]
 }
