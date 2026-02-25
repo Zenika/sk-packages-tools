@@ -1,10 +1,10 @@
 {
     "name": "@znk-sk-tools/codemods",
-    "description": "Migration codemods for projects using znk-sk-tools shared configs",
-    "version": "1.0.2",
+    "description": "CLI tools and codemods for znk-sk-tools",
+    "version": "1.0.6",
     "type": "module",
     "bin": {
-        "sk-migrate": "./bin/migrate.ts"
+        "sk-tools": "./bin/cli.js"
     },
     "files": [
         "bin",
