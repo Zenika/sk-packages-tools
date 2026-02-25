@@ -1,0 +1,25 @@
+{
+    "name": "@znk-sk-tools/vitest-config",
+    "description": "Shared Vitest configuration for Vue 3 projects",
+    "version": "1.0.3",
+    "type": "module",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./index.d.ts",
+            "default": "./index.js"
+        },
+        "./setup": "./setup.js"
+    },
+    "files": [
+        "index.js",
+        "index.d.ts",
+        "setup.js",
+        "README.md"
+    ],
+    "peerDependencies": {
+        "vitest": ">=3.0.0",
+        "vite": ">=5.0.0"
+    }
+}
